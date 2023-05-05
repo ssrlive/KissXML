@@ -4,10 +4,10 @@ import PackageDescription
 let package = Package(
     name: "KissXML",
     platforms: [
-        .macOS(.v10_10),
+        .macOS(.v10_13),
         .iOS(.v9),
-        .tvOS(.v9),
-        .watchOS(.v2)
+        .tvOS(.v11),
+        .watchOS(.v4)
     ],
     products: [
         .library(
